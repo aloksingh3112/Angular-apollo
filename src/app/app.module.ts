@@ -24,7 +24,7 @@ import { AppComponent } from './app.component';
       return {
         cache:new InMemoryCache(),
         link:httpLink.create({
-          uri:''
+          uri:'https://o5x5jzoo7z.sse.codesandbox.io/graphql'
         })
       }
     },
